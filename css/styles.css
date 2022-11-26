@@ -1,0 +1,180 @@
+body {
+  background-color: #D7C0AE;
+  /*margin: 10px;*/
+  font-family: Monaco, monospace;
+  /*text-align: center;*/
+}
+
+p {
+  font-size: 16px;
+  color: black;
+  margin: auto;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  background-color: grey;
+  border-style: none;
+  height: 2px;
+  width: 30%;
+}
+
+h1 {
+  margin: 50px;
+}
+
+h2 {
+  margin: 30px;
+  color: #3F4E4F;
+}
+
+h3 {
+  font-size: 20px;
+  color: black;
+}
+
+h4 {
+  margin: 5px;
+  font-size: 16px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/** Header **/
+
+header {
+  position: relative;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #3F4E4F;
+  margin: 2rem;
+}
+
+header p {
+  font-family: Monaco, monospace;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: groove #3D8361;
+}
+
+header nav a {
+  text-align: center;
+  margin: 2rem;
+  color: black;
+}
+
+header nav a:hover {
+  color: #3F4E4F;
+  border-bottom: solid #3F4E4F;
+}
+
+
+/** About **/
+
+.top-container {
+  width: auto;
+  position: relative;
+  padding-top: 100px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 100%;
+}
+
+.About-container {
+  text-align: center;
+  display: grid;
+}
+
+.abt-detail {
+  line-height: 1.5;
+}
+
+.container-2 {
+  position: relative;
+  padding-top: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.aboutme-link {
+  text-align: center;
+  margin: 1.4rem;
+}
+
+.button-link {
+  background-color: #3F4E4F;
+  color: #D7C0AE;
+  padding: 1rem;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.button-link:hover {
+  background-color: #D7C0AE;
+  color: #3F4E4F;
+  border: solid #3F4E4F;
+  border-width: 2px;
+}
+
+
+/** Work Exp and Skills **/
+
+.middle-container {
+  position: relative;
+  margin: 5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.project-container {
+  position: relative;
+  text-align: center;
+  margin: 5rem;
+}
+
+.bottom-container {
+  position: relative;
+  margin: 5rem;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.git-code {
+  color: #3F4E4F;
+  font-size: 1.2rem;;
+}
+
+.git-code:hover {
+  color: #3D8361;
+}
+
+.qr-link:hover {
+  color: #3D8361;
+}
+
+
+/** Footer - Contact **/
+.contact {
+  color: #3F4E4F;
+}
+
+.social-contact {
+  align-items: center;
+}
+
+.credit-top {
+  font-size: 20px;
+  color: #D7C0AE;
+  text-align: center;
+}
